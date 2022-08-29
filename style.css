@@ -1,0 +1,72 @@
+body{
+    margin: 0 auto;
+    font-family:Verdana, sans-serif;
+}
+ 
+/*------- CABEÇALHO --------*/
+header{
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    background-color: rgb(233, 66, 116);
+    display: table;
+}
+ 
+header h1{
+    text-align: center;
+    align-items: center;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+/*------ FIM CABEÇALHO -----*/
+ 
+/*---------- MENU ----------*/
+.menu{
+    width: 100%;
+}
+.menu ul{
+    padding: 0;
+    list-style: none;
+    background-color: rgb(247, 101, 65);
+    margin: 0 auto;
+ 
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    padding: 20px;
+    text-decoration: none ;
+    display: inline-block;
+    color: rgb(88, 49, 15);
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    background-color: peachpuff;
+}
+/*-------- FIM MENU --------*/
+ 
+/*-------- CONTEUDO --------*/
+.div-conteudo{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: peachpuff;
+}
+/*------ FIM CONTEÚDO ------*/
+ 
+/*--------- RODAPE ---------*/
+footer{
+    width: 100%;
+    height: 130px;
+    background-color:rgb(252, 140, 96);
+    position: absolute;
+    bottom: 0;
+}
+ 
+footer p{
+    text-align: center;
+}
+/*------- FIM RODAPE -------*/
